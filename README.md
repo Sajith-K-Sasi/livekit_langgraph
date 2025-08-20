@@ -1,6 +1,6 @@
 # livekit_langgraph
 
-This is a simple example of a livekit agent that uses langgraph to process audio and generate responses.
+This is a simple example to talk with a langgraph agent in realtime using speech with livekit.
 
 ## Setup
 
