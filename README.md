@@ -19,16 +19,16 @@ To install the dependencies.
 
 1. Create an account in livekit to get the url and api-key/secret
 2. Before your first run, you must download certain models such as Silero VAD and the LiveKit turn detector:
-	- `uv run python src/agent.py download-files`
+	- `uv run livekit_agent.py download-files`
 
 3. Next, run this command to speak to your agent directly in your terminal:
-	- `uv run python src/agent.py console`
+	- `uv run livekit_agent.py console`
 
 4. To run the agent for use with a frontend or telephony, use the dev command:
-	- `uv run python src/agent.py dev`
+	- `uv run livekit_agent.py dev`
 
 5. In production, use the start command:
-	- `uv run python src/agent.py start`
+	- `uv run livekit_agent.py start`
 	
 6. Frontend starter templates:
 	- Use the pre-built frontend starter apps from livekit to speak to the agent from frontend.
@@ -39,6 +39,6 @@ To install the dependencies.
 		- `npm run dev`
 		
 	- Run the agent in dev or production mode to chat through frontend
-		- `uv run python src/agent.py dev`
-		- `uv run python src/agent.py start`
+		- `uv run livekit_agent.py dev`
+		- `uv run livekit_agent.py start`
 
