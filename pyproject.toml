@@ -1,0 +1,14 @@
+[project]
+name = "livekit-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph",
+    "langchain_openai",
+    "livekit-agents[openai,turn-detector,silero,elevenlabs]~=1.2",
+    "livekit-plugins-noise-cancellation~=0.2",
+    "livekit-plugins-langchain~=1.1",
+    "python-dotenv",
+    ]
